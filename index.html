@@ -9,9 +9,27 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <style>
+        .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+    </style>
+    
 </head>
 
 <body>
@@ -51,11 +69,28 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Shubham Bagi</h1>
-            <h2>Developer</h2>
-            <a href="https://github.com/shubham12595/shubham.github.io/blob/master/Shubham.pdf" class="btn-rounded-white">Download Resume</a>
-            <a href="https://github.com/shubham12595" target="_blank"><i class="fa fa-github" style="font-size:48px;color:black" aria-hidden="true"></i></a> 
-            <a href="https://www.linkedin.com/in/shubhambagi/" target="_blank"><i class="fa fa-linkedin" style="font-size:48px;color:black" aria-hidden="true"></i></a>
-            
+            <h2 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h2>
+
+                    <a href="https://www.linkedin.com/in/shubhambagi/" target="_blank">
+                    <button class="icon-btn linkedin">
+                        <i class="fa fa-linkedin" style="font-size:38px;color:rgb(26, 2, 112)"></i>
+                    </button>
+                    </a>
+                    <a href="https://github.com/shubham12595" target="_blank">
+                    <button class="icon-btn github">
+                        <i class="fa fa-github" style="font-size:38px;color:rgb(26, 2, 112)"></i>
+                    </button>
+                    </a> 
+                    <a href="https://angel.co/u/shubham-bagi" target="_blank">
+                    <button class="icon-btn angellist">
+                        <i class="fa fa-angellist" style="font-size:38px;color:rgb(26, 2, 112)"></i>
+                    </button>
+                    </a> 
+                    <a href="https://github.com/shubham12595/shubham12595.github.io/blob/master/Shubham.pdf" target="_blank">
+                        <button class="icon-btn pdf">
+                            <i class="fa fa-file-o" style="font-size:38px;color:rgb(26, 2, 112)"></i>
+                        </button>
+                        </a>
         </div>
 
         <!-- End #lead-content -->
@@ -79,10 +114,10 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        I am a Graduate student at Stony Brook University. I first learned how to program back in my high school. I am very passionate about programming and engineering as a whole. I primarily work on the backend and I am very fond of complex systems that require critical thinking skills and logic. Though, I am flexible and have worked in the frontend as well!
-                        I recently developed an interest in Machine Learning. I like to learn about the applications behind it. 
-                    <p>I am a recently interning at Remote Roofing as a Machine Learning Intern. I worked as a Software Engineer at Robert Bosch Business and Engineering Solutions before making up my mind to pursue my Masters.</p>
-                    <p>Areas of interest - Machine Learning, Data Science, Theory of Databases, Big Data Analytics.</p>
+                        <li>I am a Graduate student at Stony Brook University. I first learned how to program back in my high school. I am very passionate about programming and engineering as a whole. I primarily work on the backend and I am very fond of complex systems that require critical thinking skills and logic. Though, I am flexible and have worked in the frontend as well!</li>
+                        <li>I recently developed an interest in Machine Learning. I like to learn about the applications behind it.</li> 
+                    <li>I am a recently interning at Remote Roofing as a Machine Learning Intern. I worked as a Software Engineer at Robert Bosch Business and Engineering Solutions before making up my mind to pursue my Masters</li>
+                    <li>Areas of interest - Machine Learning, Data Science, Theory of Databases, Big Data Analytics.</li>
                     </p>
                 </div>
             </div>
@@ -336,6 +371,10 @@
                         <li>
                             <a href="https://www.linkedin.com/in/shubhambagi/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
+                        <li>
+                            <a href="https://angel.co/u/shubham-bagi" target="_blank"><i class="fa fa-angellist" aria-hidden="true"></i></a>
+                        </li>
+                        
                         
                     </ul>
                 </div>
@@ -344,8 +383,19 @@
     </footer>
     <!-- End footer -->
 
+    <script src="vendor/typed.js/typed.min.js"></script>
+    <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Data Scientist", "Machine Learning Enthusiast","Full Stack Developer","Self-Starter"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+
 </body>
 
 </html>
